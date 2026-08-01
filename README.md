@@ -50,6 +50,7 @@ Global skills are project-agnostic workflows located in `/.agents/skills/`. They
 * [feature-planner](file:///Users/alexcaulfield/src/.agents/skills/feature-planner/SKILL.md) - For planning, architecting, and designing new feature implementations using a standardized plan template.
 * [project-init](file:///Users/alexcaulfield/src/.agents/skills/project-init/SKILL.md) - For bootstrapping a new side-project repository with standard directories and files.
 * [bug-fixer](file:///Users/alexcaulfield/src/.agents/skills/bug-fixer/SKILL.md) - For systematically troubleshooting, performing root cause analysis, and deploying robust bug fixes.
+* [dependabot-automerge](file:///Users/alexcaulfield/src/.agents/skills/dependabot-automerge/SKILL.md) - For setting up Dependabot updates, CI check workflows, and auto-merge pull request configurations.
 
 ### Global Rules
 Global rules are project-agnostic code standards stored in `/.agents/rules/` that apply across all projects:
