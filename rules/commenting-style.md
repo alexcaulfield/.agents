@@ -10,8 +10,9 @@ description: "Enforces writing clear, self-documenting code and only adding comm
 ## Principles
 
 1. **Self-Documenting Code First**: Write code that is clear, succinct, and readable. Variable, function, and class names should express intent.
-2. **Minimal Comments**: Only add comments if a method, function, or block of logic is particularly confusing, non-obvious, or hard to read.
-3. **Focus on "Why", Not "What"**: Do not write comments that simply restate what the code is doing. If a comment is needed, explain *why* the code is written that way or clarify complex algorithmic steps.
+2. **Structure as Documentation**: Package/directory layout and exported identifiers carry meaning — don't restate in a comment what a name, type signature, or location already communicates. For example, an exported handler called `ArtistSetlists` in an `api/` package needs no `// ArtistSetlists handles POST /api/artistSetlists` comment.
+3. **Minimal Comments**: Only add comments if a method, function, or block of logic is particularly confusing, non-obvious, or hard to read.
+4. **Focus on "Why", Not "What"**: Do not write comments that simply restate what the code is doing. If a comment is needed, explain *why* the code is written that way or clarify complex algorithmic steps.
 
 ## Examples
 
