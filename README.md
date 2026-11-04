@@ -51,6 +51,8 @@ Global skills are project-agnostic workflows located in `/.agents/skills/`. They
 * [project-init](file:///Users/alexcaulfield/src/.agents/skills/project-init/SKILL.md) - For bootstrapping a new side-project repository with standard directories and files.
 * [bug-fixer](file:///Users/alexcaulfield/src/.agents/skills/bug-fixer/SKILL.md) - For systematically troubleshooting, performing root cause analysis, and deploying robust bug fixes.
 * [dependabot-automerge](file:///Users/alexcaulfield/src/.agents/skills/dependabot-automerge/SKILL.md) - For setting up Dependabot updates, CI check workflows, and auto-merge pull request configurations.
+* [go-vercel-handlers](file:///Users/alexcaulfield/src/.agents/skills/go-vercel-handlers/SKILL.md) - For designing, implementing, and refactoring Go serverless functions cleanly separating business logic from HTTP transport (Pattern A).
+* [unit-testing](file:///Users/alexcaulfield/src/.agents/skills/unit-testing/SKILL.md) - Universal patterns for lightweight, maintainable unit tests covering golden paths, failure paths, and edge cases across any language without framework redundancy.
 
 ### Global Rules
 Global rules are project-agnostic code standards stored in `/.agents/rules/` that apply across all projects:
